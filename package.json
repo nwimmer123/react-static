@@ -1,0 +1,8 @@
+{
+  "name": "react-static",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/nwimmer123/react-static.git",
+  "author": "<nwimmer123@yahoo.com>",
+  "license": "MIT"
+}
