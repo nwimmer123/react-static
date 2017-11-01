@@ -10,7 +10,7 @@ const WebsiteRoutes = {
       indexRoute: {
         getComponent(location, cb) {
           DynamicImport(
-            import(/* webpackChunkName: "home" */'app/content/Home),
+            import(/* webpackChunkName: "home" */'app/content/Home'),
             cb,
             'home'
           );

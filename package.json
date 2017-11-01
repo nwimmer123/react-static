@@ -5,6 +5,11 @@
   "repository": "https://github.com/nwimmer123/react-static.git",
   "author": "<nwimmer123@yahoo.com>",
   "license": "MIT",
+  "scripts": {
+    "start": "node scripts/server.js",
+    "watch": "cross-env NODE_ENV=development webpack -w",
+    "build": "cross-env NODE_ENV=production webpack -p"
+  },
   "devDependencies": {
     "antd": "^2.13.8",
     "axios": "^0.17.0",
