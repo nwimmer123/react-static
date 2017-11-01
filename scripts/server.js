@@ -1,10 +1,10 @@
-'use strict'
+'use strict';
 
 const express = require('express');
 const app = express();
 const path = require('path');
 
-app.set( 'port', process.env.PORT || 1001 );
+app.set( 'port', process.env.PORT || 3000 );
 
 app.use( express.static(
   path.join(__dirname, '../', 'public'),
@@ -18,5 +18,5 @@ app.get( '/*', (req, res) => {
 });
 
 app.listen( app.get('port'), function(){
-  console.log('Server runnig at http://localhost:%s', app.get('port'));
+  console.log('Server running at http://localhost:%s', app.get('port'));
 });
